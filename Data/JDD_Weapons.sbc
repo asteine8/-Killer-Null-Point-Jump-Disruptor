@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>
+	  
+	<Weapon>
+		<Id>
+		<TypeId>WeaponDefinition</TypeId>
+		<SubtypeId>JDD_Weapon_Large</SubtypeId>
+		</Id>
+		<ProjectileAmmoData RateOfFire="30" ShootSoundName="" ShotsInBurst="1" />
+		<ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+		<DeviateShotAngle>10</DeviateShotAngle>
+		<MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+		<AmmoMagazines>
+		<AmmoMagazine Subtype="JDD_EnergyCharge_MagazineLarge" />
+		</AmmoMagazines>
+		<ReloadTime>1500</ReloadTime>
+	</Weapon>
+
+	<Weapon>
+		<Id>
+			<TypeId>WeaponDefinition</TypeId>
+			<SubtypeId>JDD_Weapon_Small</SubtypeId>
+		</Id>
+		<ProjectileAmmoData RateOfFire="30" ShootSoundName="" ShotsInBurst="1" />
+		<ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+		<DeviateShotAngle>10</DeviateShotAngle>
+		<MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+		<AmmoMagazines>
+			<AmmoMagazine Subtype="JDD_EnergyCharge_MagazineSmall" />
+		</AmmoMagazines>
+		<ReloadTime>1500</ReloadTime>
+	</Weapon>
+	  
+  </Weapons>
+</Definitions>

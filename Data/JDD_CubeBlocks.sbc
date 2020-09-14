@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <CubeBlocks>
+
+		<!-- Large JDD -->
+        <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+            <Id>
+            <TypeId>ConveyorSorter</TypeId>
+                <SubtypeId>JD_Disruptor_Large</SubtypeId>
+            </Id>
+            <DisplayName>Large Null-Point Jump Disrupter</DisplayName>
+            <Description>Disables Jump Drives</Description>
+			<GuiVisible>true</GuiVisible>
+        
+            <Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
+            
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="9" z="3"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\Large_JDD.mwm</Model>
+            <Components>
+				<Component Count="250" Subtype="SteelPlate"/>
+				<Component Count="300" Subtype="Construction"/>
+				<Component Count="80" Subtype="LargeTube" />
+				<Component Count="160" Subtype="MetalGrid" />
+				<Component Count="50" Subtype="GravityGenerator" />
+				<Component Count="500" Subtype="Superconductor" />
+                <Component Count="300" Subtype="Computer"/>
+				<Component Count="150" Subtype="Construction"/>
+				<Component Count="300" Subtype="SteelPlate"/>
+            </Components>
+            <CriticalComponent Index="1" Subtype="Construction"/>
+			
+			<BlockVariants>
+				<BlockVariant>
+					<TypeId>ConveyorSorter</TypeId>
+					<SubtypeId>JD_Disruptor_Large</SubtypeId>
+				</BlockVariant>
+				<BlockVariant>
+					<TypeId>ConveyorSorter</TypeId>
+					<SubtypeId>JD_Disruptor_Small</SubtypeId>
+				</BlockVariant>
+			</BlockVariants>
+
+            <WeaponDefinitionId Subtype="JDD_Weapon_Large" />
+			<ResourceSinkGroup>Defense</ResourceSinkGroup>
+			<RequiredPowerInput>0.00002</RequiredPowerInput>
+			
+            <PCU>800</PCU>
+        
+	</Definition>
+
+
+		<!-- Small JDD -->
+        <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+            <Id>
+                <TypeId>ConveyorSorter</TypeId>
+                <SubtypeId>JD_Disruptor_Small</SubtypeId>
+            </Id>
+            <DisplayName>Small Null-Point Jump Disrupter</DisplayName>
+            <Description>Disables Jump Drives</Description>
+			<GuiVisible>true</GuiVisible>
+
+            <Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
+
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="3" z="1"/>
+            <ModelOffset x="0" y="0" z="0"/>
+            <Model>Models\Small_JDD.mwm</Model>
+			
+			<Components>
+				<Component Count="100" Subtype="SteelPlate"/>
+				<Component Count="75" Subtype="Construction"/>
+				<Component Count="30" Subtype="LargeTube" />
+				<Component Count="75" Subtype="MetalGrid" />
+				<Component Count="12" Subtype="GravityGenerator" />
+				<Component Count="150" Subtype="Superconductor" />
+				<Component Count="300" Subtype="Computer"/>
+				<Component Count="50" Subtype="Construction"/>
+				<Component Count="50" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="1" Subtype="Construction"/>
+
+            <WeaponDefinitionId Subtype="JDD_Weapon_Small" />
+		    <ResourceSinkGroup>Defense</ResourceSinkGroup>
+			<RequiredPowerInput>0.00002</RequiredPowerInput>
+
+			<PCU>800</PCU>
+        </Definition>
+    </CubeBlocks>
+</Definitions>
