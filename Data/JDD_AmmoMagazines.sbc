@@ -7,7 +7,7 @@
                 <SubtypeId>JDD_EnergyCharge_MagazineLarge</SubtypeId>
             </Id>
             <DisplayName>JDD - Universial Energy Charge Large</DisplayName>
-            <Icon>Textures\universalenergycharge.dds</Icon>
+            <Icon>Textures\GUI\Icons\EnergyCharge_Icon.dds</Icon>
             <Size>
                 <X>0.2</X>
                 <Y>0.2</Y>
@@ -27,7 +27,7 @@
 				<SubtypeId>JDD_EnergyCharge_MagazineSmall</SubtypeId>
 			</Id>
 			<DisplayName>JDD - Universial Energy Charge Small</DisplayName>
-			<Icon>Textures\universalenergycharge.dds</Icon>
+			<Icon>Textures\GUI\Icons\EnergyCharge_Icon.dds</Icon>
 			<Size>
 				<X>0.2</X>
 				<Y>0.2</Y>

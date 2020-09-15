@@ -35,7 +35,7 @@ namespace JDD_Mod_Thread {
                     Grids,  // Target Types. Your options include , Grids, Projectiles, Characters.
                 },
                 SubSystems = new[] {
-                    Thrust, Utility, Offense, Power, Production, Any,   // Block type Priorities for targeting. Use only "Any" to not use this feature. Decoys are in Utilities.
+                    Any,   // Block type Priorities for targeting. Use only "Any" to not use this feature. Decoys are in Utilities.
                 },
                 ClosestFirst = true, // tries to pick closest targets first (blocks on grids, projectiles, etc...).
                 IgnoreDumbProjectiles = false, // Don't fire at non-smart projectiles.
@@ -78,7 +78,7 @@ namespace JDD_Mod_Thread {
                     MinElevation = -9,
                     MaxElevation = 50,
                     FixedOffset = false,
-                    InventorySize = 15f,
+                    InventorySize = 0.0f,
                     Offset = Vector(x: 0, y: 0, z: 0),
                 },
                 Other = new OtherDef {
@@ -147,8 +147,8 @@ namespace JDD_Mod_Thread {
                 },
             },
             Ammos = new [] {   // This contains the Class IDs of your Ammo types for this Weapon.
-                JD_Disruptor_Ammo_Large,
-                JD_Disruptor_Ammo_DamagingLarge
+                JDD_LargeDisruptor_Ammo,
+                JDD_LargeDamage_Ammo,
             },
             //Animations = AdvancedAnimation,  // Remove the // from this line, and use the Class ID of your Animation CS file to enable.
             // Don't edit below this line

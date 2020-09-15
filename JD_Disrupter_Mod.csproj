@@ -10,7 +10,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Textures\Icons\" />
+    <Compile Remove="Textures\Icons\**" />
+    <EmbeddedResource Remove="Textures\Icons\**" />
+    <None Remove="Textures\Icons\**" />
   </ItemGroup>
 
 </Project>

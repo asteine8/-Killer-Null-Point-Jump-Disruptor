@@ -78,7 +78,7 @@ namespace JDD_Mod_Thread {
                     MinElevation = -9,
                     MaxElevation = 50,
                     FixedOffset = false,
-                    InventorySize = 15f,
+                    InventorySize = 0.0f,
                     Offset = Vector(x: 0, y: 0, z: 0),
                 },
                 Other = new OtherDef {
@@ -147,7 +147,8 @@ namespace JDD_Mod_Thread {
                 },
             },
             Ammos = new [] {   // This contains the Class IDs of your Ammo types for this Weapon.
-                JD_Disruptor_Ammo_Small,
+                JDD_SmallDisruptor_Ammo,
+                JDD_SmallDamage_Ammo,
             },
             //Animations = AdvancedAnimation,  // Remove the // from this line, and use the Class ID of your Animation CS file to enable.
             // Don't edit below this line

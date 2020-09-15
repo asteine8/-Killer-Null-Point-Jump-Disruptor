@@ -12,13 +12,13 @@
             <Description>Disables Jump Drives</Description>
 			<GuiVisible>true</GuiVisible>
         
-            <Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
+            <Icon>Textures\GUI\Icons\JDD_Icon.dds</Icon>
             
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="9" z="3"/>
             <ModelOffset x="0" y="0" z="0"/>
-            <Model>Models\Large_JDD.mwm</Model>
+            <Model>Models\Large_JDD_MKII.mwm</Model>
             <Components>
 				<Component Count="250" Subtype="SteelPlate"/>
 				<Component Count="300" Subtype="Construction"/>
@@ -62,7 +62,7 @@
             <Description>Disables Jump Drives</Description>
 			<GuiVisible>true</GuiVisible>
 
-            <Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
+            <Icon>Textures\GUI\Icons\JDD_Icon.dds</Icon>
 
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
